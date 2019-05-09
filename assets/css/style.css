@@ -113,7 +113,7 @@ p {
 #someofthebesthings {
     font-size: 22px;
     position: absolute;
-    right: 222px;
+    right: 242px;
     top: 100px;
 }
 #title {
@@ -126,7 +126,7 @@ p {
 #offer {
     position: absolute;
     font-size: 22px;
-    right: 222px;
+    right: 242px;
     top: 155px;
 }
 #luggage {
@@ -314,13 +314,15 @@ p {
 
 }
 .col-md-4 {
+    margin: 0 auto;
     display: inline-block;
     
 }
 #resource_border {
     border-top: 2px solid lightgray;
     width: 310px;
-    margin-top:40px;
+
+   
     
 
 }
