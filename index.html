@@ -6,11 +6,18 @@
 
   <meta charset="UTF-8">
 
-  <title>Employee Tracker</title>
+  <title>Trevithick Station</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
   <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+
+  <!-- font awesome links -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
   <!-- Bootstrap -->
@@ -31,19 +38,14 @@
 
 <body>
 
-  <!-- VIDEO -->
-  <!-- <div class="body">
-    <video autoplay muted loop>
-        <source src="https://youtu.be/2Opp6193hvo" type="video/mp4">
-          </video>
-          <div id="overlay"></div> -->
+  
 
   <!-- Employee Tracker -->
   <div class="container">
    
     <!-- Jumbotron -->
     <div class="jumbotron" style="background: gainsboro">
-      <h1 class="text-center">Train Time</h1>
+      <h1 class="text-center">Trevithick Station</h1>
       <h4 class="text-center" id="currentTime">The current time is : </h4>
     </div>
 
@@ -51,7 +53,8 @@
     <div class="book-it">
     <div class="flip"> 
             <div class="front"> 
-              <img src="assets/images/SF.jpg" alt="San Francsico"/>
+              <img src="assets/images/london.jpg" alt="Landon"/>
+              <p>London</p>
             </div> 
             <div class="back">
             <h6>Book the trip today!</h6>
@@ -59,14 +62,30 @@
         </div> 
         <div class="flip"> 
             <div class="front">
-                <img src="assets/images/LV.jpg" alt="San Francsico"/>
+                <img src="assets/images/rome.jpg" alt="Rome" height= "148"/>
+                <p>Rome</p>
             </div>
             <div class="back">
                 <h6>Book the trip today!</h6>
             </div>
         </div>
+        <div class="flip"> 
+        <div class="front"> 
+            <img src="assets/images/Germany.jpg" alt="Germany" height="148"/>
+            <p>Germany</p>
+          </div> 
+          <div class="back">
+          <h6>Book the trip today!</h6>
+          </div>
     </div>
-  
+    <div class="flip"> 
+        <div class="front"> 
+            <img src="assets/images/japan.jpg" alt="Germany" height="148"/>
+            <p>Japan</p>
+          </div> 
+          <div class="back">
+          <h6>Book the trip today!</h6>
+          </div>
 </div>
 </div>
 
@@ -74,7 +93,7 @@
       <div class="col-md-12">
         <!-- Current Train Schedule-->
         <div class="card mb-4">
-          <div class="card-header" style="background-color: gainsboro; color: gray">Current Train Schedule</div>
+          <div class="card-header" style="background-color: gainsboro; color: black">Current Train Schedule</div>
           <div class="card-body">
             <table class="table table-sm table-hover" id='schedule-table'>
               <thead>
@@ -98,7 +117,7 @@
       <div class="col-md-12">
         <!-- Add Employee  -->
         <div class="card mb-4">
-          <div class="card-header" style="background-color: gainsboro; color: gray">Add Train</div>
+          <div class="card-header" style="background-color: gainsboro; color: black">Add Train</div>
           <div class="card-body">
 
             <!-- Entry Form -->
@@ -129,18 +148,81 @@
   </div>
     <div class="banner">
       <div class="promo">
-        <img src="../images/trainpromo.jpg" alt="train" width= "200">
+        <img id="iphone" src="assets/images/trainpromo.png" width= "668" height="322">
 
+        <span id="expereince" style="font-family: 'Fredericka the Great', cursive;">Expereince</span>
+        <span id="someofthebesthings" style="font-family: Amiko', sans-serif;">some of the best things</span>
+        <span id="title" style="font-family: 'Didact Gothic', sans-serif;">Trevithick Station</span>
+        <span id="offer" style="font-family: Amiko', sans-serif;">has to offer.</span>
+
+        <img id="luggage" src="assets/images/silhouette-3125922_960_720.png" alt="manluggage" height="95">
+        <img id="couple" src="assets/images/f0aaeb492a77aaf10a1cc3f984560d09.png" alt="couple" height="156">
+        <img id="camper" src="assets/images/31c671438a32715b40dc0e5a32b9bd61.png" alt="camper" height="80">
+        <img id="phoneluggage" src="assets/images/4e40477a2d1530202b80d5051fc3ff71.jpg" alt="phoneluggage" height="156">
+        <img id="grandpa" src="assets/images/silhouette-3146733_960_720.png" alt="grandpa" height="95">
+        <img id="gesture" src="assets/images/Men-Silhouette-Background-PNG.png" alt="gesture" height="100">
+        <img id="kid" src="assets/images/1358675_thumb.png" alt="minor" height="80">
+        <img id="students" src="assets/images/Silhouette-Background-PNG.png" alt="students" height="103">
+        <img id="standing" src="assets/images/Men-Silhouette-PNG-Photo.png" alt="man" height="156">
+        <img id="shouting" src="assets/images/Silhouette-PNG-Background-Image.png" alt="shout" height="82">
+        <img id="girls" src="assets/images/Silhouette-PNG-Transparent.png" alt="girls" height="112">
+        <!-- <img id="birds" src="assets/images/Birds-PNG-Free-Download.png" alt="birds" height="190"> -->
+        <img id="dog" src="assets/images/dog-clipart-transparent-background-25.png" alt="dog" height="44"> 
+        <img id="lady" src="assets/images/NS_0004.png" alt="lady" height="139">
+        <img id="guy" src="assets/images/NS_0021.png" alt="guy" height="122">
+        <img id="businessman" src="assets/images/silhouette-3266163_960_720.png" alt="business" height="132">
+        <img id="photographer" src="assets/images/NS_0050.png" alt="tourist" height="114">
+        <img id="family" src="assets/images/NS_0005.png" alt="family" height="217">
+        <img id="rest" src="assets/images/tourist-silhouette.png" alt="rest" height="134">
+        
       </div>
 
-    
+  </div>
+
+  <div class="miscellaneous">
+        <div class="col-md-4">
+
+      <div class="contact">
+          <div class="gap">
+            <i class="fab fa-facebook-square"></i>
+        </div>
+        <div class="gap">
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="gap">
+            <i class="fab fa-twitter-square"></i>
+        </div>
+
+            <div class="gap">
+            <i class="fab fa-github-square"></i>
+             </div>
+             <div class="border"></div>
+             <div id="logo">
+                 <h2>Trevithick Station</h2>
+             </div>
+             </div>
+             
+
+      </div>
+      <div class="col-md-4">
+          <div class="contact">
+          <div id="resource_border">
+              <h6>About Trevithick Station</h6>
+              
+          
+
+          </div>
+          
+      </div>
+      
 
   </div>
-  <!-- </div> -->
+  </div>
+  
 
 
   <!-- JavaScript -->
-  <script src="assets/timesheetLogic.js"></script>
+  <script src="assets/javascript/timesheetLogic.js"></script>
   <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="jquery.flip.min.js"></script>
